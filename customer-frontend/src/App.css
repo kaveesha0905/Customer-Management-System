@@ -1,0 +1,17 @@
+.container { padding: 40px; background-color: #f4f7f6; min-height: 100vh; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+header h1 { color: #2c3e50; margin: 0; }
+header p { color: #95a5a6; margin-bottom: 30px; }
+
+.pagination-bar { margin: 20px 0; display: flex; justify-content: center; align-items: center; gap: 15px; }
+.page-indicator { font-weight: bold; padding: 10px 20px; background: white; border-radius: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+button { padding: 10px 20px; border: none; border-radius: 5px; background-color: #3498db; color: white; cursor: pointer; font-weight: bold; }
+button:hover:not(:disabled) { background-color: #2980b9; }
+button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
+
+.table-wrapper { background: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; }
+table { width: 100%; border-collapse: collapse; }
+th { background-color: #34495e; color: white; padding: 15px; text-align: left; }
+td { padding: 12px 15px; border-bottom: 1px solid #eee; }
+tr:hover { background-color: #f9f9f9; }
+.nic-cell { font-family: 'Courier New', Courier, monospace; color: #e67e22; font-weight: bold; }
